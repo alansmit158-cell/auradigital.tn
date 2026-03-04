@@ -9,9 +9,14 @@ const Header = () => {
 
     return (
         <header className="w-full py-4 px-4 md:px-8 flex items-center justify-between bg-white/70 backdrop-blur-md sticky top-0 z-50 shadow-sm border-b border-[#fcebe9]">
-            <div className="text-xl md:text-2xl font-serif text-[#b8860b] font-bold flex items-center gap-2">
-                <span>✨</span>
-                <Link to="/" onClick={closeMenu}>Aura Digital</Link>
+            <div className="flex items-center gap-2">
+                <Link to="/" onClick={closeMenu}>
+                    <img
+                        src="/projects/00.png"
+                        alt="Aura Digital Logo"
+                        className="h-10 md:h-12 w-auto object-contain"
+                    />
+                </Link>
             </div>
 
             {/* Desktop Navigation */}
