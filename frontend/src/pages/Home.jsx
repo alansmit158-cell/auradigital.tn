@@ -2,7 +2,6 @@ import React from 'react';
 import { motion } from 'framer-motion';
 
 const galleryItems = [
-    { title: 'Skygros - Boutique', image: '/projects/skygros_3.png', link: 'https://skygros.com' },
     { title: 'Invitation Digitale', image: '/projects/invit_2.png', link: 'https://islem-raouia-wedding-invitation.vercel.app/' },
     { title: 'Invitation - Programme', image: '/projects/invit_4.png', link: 'https://islem-raouia-wedding-invitation.vercel.app/' },
     { title: 'Galerie Digitale', image: '/projects/Screenshot 2026-03-04 232334.png', link: 'https://auradigitalgallerie.vercel.app/' },
@@ -48,7 +47,7 @@ const Home = () => {
                     transition={{ duration: 0.8, delay: 0.4 }}
                     className="text-base sm:text-lg md:text-xl text-[#6d5c52] max-w-2xl mb-8 md:mb-10"
                 >
-                    Aura Digital propulse votre activité avec des solutions web et mobiles sur-mesure, des sites vitrines élégants et des applications performantes.
+                    Aura Digital crée des <span className="font-semibold text-[#b8860b]">invitations digitales</span> interactives pour vos mariages et événements, et des <span className="font-semibold text-[#b8860b]">galeries photos</span> privées pour partager chaque souvenir. Design sur-mesure, élégant et inoubliable.
                 </motion.p>
             </section>
 

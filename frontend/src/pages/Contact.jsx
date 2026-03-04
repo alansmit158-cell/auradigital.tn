@@ -38,7 +38,7 @@ const Contact = () => {
                 transition={{ delay: 0.2 }}
                 className="text-sm sm:text-base text-[#6d5c52] mb-8 md:mb-10 text-center max-w-lg px-2"
             >
-                Remplissez ce formulaire pour obtenir un devis personnalisé ou discuter de vos idées pour votre projet web, mobile ou invitation digitale.
+                Vous souhaitez une <strong>invitation digitale</strong> pour votre mariage, une <strong>galerie photo</strong> privée pour votre événement, ou un projet web sur-mesure ? Remplissez ce formulaire et nous vous répondrons rapidement.
             </motion.p>
 
             <motion.div
