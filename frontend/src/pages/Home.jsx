@@ -2,11 +2,6 @@ import React from 'react';
 import { motion } from 'framer-motion';
 
 const galleryItems = [
-    { title: 'Satpromax - Accueil', image: '/projects/satpromax_1.png', link: 'https://satpromax.com' },
-    { title: 'Satpromax - Catalogue', image: '/projects/satpromax_2.png', link: 'https://satpromax.com' },
-    { title: 'Satpromax - Suite', image: '/projects/satpromax_3.png', link: 'https://satpromax.com' },
-    { title: 'Skygros - Accueil', image: '/projects/skygros_1.png', link: 'https://skygros.com' },
-    { title: 'Skygros - Produits', image: '/projects/skygros_2.png', link: 'https://skygros.com' },
     { title: 'Skygros - Boutique', image: '/projects/skygros_3.png', link: 'https://skygros.com' },
     { title: 'Invitation Digitale', image: '/projects/invit_2.png', link: 'https://islem-raouia-wedding-invitation.vercel.app/' },
     { title: 'Invitation - Programme', image: '/projects/invit_4.png', link: 'https://islem-raouia-wedding-invitation.vercel.app/' },
@@ -86,17 +81,28 @@ const Home = () => {
                         whileInView="visible"
                         custom={0}
                         viewport={{ once: true }}
-                        className="w-full lg:w-1/2 rounded-3xl overflow-hidden shadow-[0_24px_60px_rgba(225,198,229,0.35)] border border-white/60 bg-white/40 backdrop-blur-sm relative"
+                        className="w-full lg:w-1/2 flex flex-col gap-4"
                     >
-                        <video
-                            src="/projects/Recording 2026-03-04 232043.mp4"
-                            autoPlay
-                            loop
-                            muted
-                            playsInline
-                            className="w-full h-auto object-cover rounded-3xl"
-                        />
-                        <div className="absolute inset-0 rounded-3xl ring-1 ring-inset ring-white/30 pointer-events-none" />
+                        <div className="rounded-3xl overflow-hidden shadow-[0_24px_60px_rgba(225,198,229,0.35)] border border-white/60 bg-white/40 backdrop-blur-sm">
+                            <video
+                                src="/projects/Recording 2026-03-04 232704.mp4"
+                                autoPlay
+                                loop
+                                muted
+                                playsInline
+                                className="w-full h-auto object-cover"
+                            />
+                        </div>
+                        <div className="rounded-2xl overflow-hidden shadow-lg border border-white/60 bg-white/40">
+                            <video
+                                src="/projects/Recording 2026-03-04 232840.mp4"
+                                autoPlay
+                                loop
+                                muted
+                                playsInline
+                                className="w-full h-auto object-cover"
+                            />
+                        </div>
                     </motion.div>
 
                     {/* Text Right */}
@@ -171,17 +177,7 @@ const Home = () => {
                     >
                         <div className="rounded-3xl overflow-hidden shadow-[0_24px_60px_rgba(184,134,11,0.2)] border border-white/60 bg-white/40 backdrop-blur-sm">
                             <video
-                                src="/projects/Recording 2026-03-04 232704.mp4"
-                                autoPlay
-                                loop
-                                muted
-                                playsInline
-                                className="w-full h-auto object-cover"
-                            />
-                        </div>
-                        <div className="rounded-2xl overflow-hidden shadow-lg border border-white/60 bg-white/40">
-                            <video
-                                src="/projects/Recording 2026-03-04 232840.mp4"
+                                src="/projects/Recording 2026-03-04 232043.mp4"
                                 autoPlay
                                 loop
                                 muted
